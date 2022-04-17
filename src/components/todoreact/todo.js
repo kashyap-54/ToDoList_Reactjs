@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import './todo.css'
 
+//gettingLocalData
+
 const getLocalData = () => {
     const lists = localStorage.getItem("mytodolist");
     if (lists) {
